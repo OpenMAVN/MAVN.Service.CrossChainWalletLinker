@@ -20,7 +20,7 @@ namespace MAVN.Service.CrossChainWalletLinker.MsSqlRepositories.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Lykke.Service.CrossChainWalletLinker.MsSqlRepositories.Entities.ConfigurationItemEntity", b =>
+            modelBuilder.Entity("MAVN.Service.CrossChainWalletLinker.MsSqlRepositories.Entities.ConfigurationItemEntity", b =>
                 {
                     b.Property<string>("Id")
                         .ValueGeneratedOnAdd()
@@ -42,7 +42,7 @@ namespace MAVN.Service.CrossChainWalletLinker.MsSqlRepositories.Migrations
                     b.ToTable("configuration_items");
                 });
 
-            modelBuilder.Entity("Lykke.Service.CrossChainWalletLinker.MsSqlRepositories.Entities.WalletLinkingRequestEntity", b =>
+            modelBuilder.Entity("MAVN.Service.CrossChainWalletLinker.MsSqlRepositories.Entities.WalletLinkingRequestEntity", b =>
                 {
                     b.Property<string>("CustomerId")
                         .ValueGeneratedOnAdd()
@@ -85,7 +85,7 @@ namespace MAVN.Service.CrossChainWalletLinker.MsSqlRepositories.Migrations
                     b.ToTable("wallet_linking_requests");
                 });
 
-            modelBuilder.Entity("Lykke.Service.CrossChainWalletLinker.MsSqlRepositories.Entities.WalletLinkingRequestsCounterEntity", b =>
+            modelBuilder.Entity("MAVN.Service.CrossChainWalletLinker.MsSqlRepositories.Entities.WalletLinkingRequestsCounterEntity", b =>
                 {
                     b.Property<string>("CustomerId")
                         .ValueGeneratedOnAdd()

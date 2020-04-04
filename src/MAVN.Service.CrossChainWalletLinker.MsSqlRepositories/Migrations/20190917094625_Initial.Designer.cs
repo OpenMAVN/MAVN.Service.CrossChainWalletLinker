@@ -22,7 +22,7 @@ namespace MAVN.Service.CrossChainWalletLinker.MsSqlRepositories.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Lykke.Service.CrossChainWalletLinker.Domain.Repositories.WalletLinkingRequestEntity", b =>
+            modelBuilder.Entity("MAVN.Service.CrossChainWalletLinker.Domain.Repositories.WalletLinkingRequestEntity", b =>
                 {
                     b.Property<string>("CustomerId")
                         .ValueGeneratedOnAdd()
