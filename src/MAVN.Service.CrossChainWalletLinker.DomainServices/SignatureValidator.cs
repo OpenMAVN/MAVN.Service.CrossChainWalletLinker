@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Common.Log;
 using Lykke.Common.Log;
 using MAVN.Service.CrossChainWalletLinker.Domain.Services;
@@ -39,7 +39,7 @@ namespace MAVN.Service.CrossChainWalletLinker.DomainServices
                 return false;
             }
 
-            return string.Equals(recoveredAddress, publicAddress, StringComparison.CurrentCultureIgnoreCase);
+            return string.Equals(recoveredAddress, publicAddress, StringComparison.OrdinalIgnoreCase);
         }
     }
 }

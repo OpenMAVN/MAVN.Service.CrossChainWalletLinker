@@ -5,8 +5,8 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Falcon.Numerics" Version="0.1.1" />
-    <PackageReference Include="Falcon.PrivateBlockchain.MVNGateway" Version="2.1.0" />
     <PackageReference Include="Lykke.Common" Version="7.5.0" />
     <PackageReference Include="Lykke.Common.MsSql" Version="2.3.0" />
+    <PackageReference Include="MAVN.PrivateBlockchain.MVNGateway" Version="1.0.0-beta.1" />
   </ItemGroup>
 </Project>
