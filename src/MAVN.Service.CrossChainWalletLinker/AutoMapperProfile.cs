@@ -1,5 +1,5 @@
-using AutoMapper;
-using Lykke.PrivateBlockchain.Definitions;
+﻿using AutoMapper;
+using MAVN.PrivateBlockchain.Definitions;
 using MAVN.Service.CrossChainWalletLinker.Client.Models;
 using MAVN.Service.CrossChainWalletLinker.Domain.Models;
 
