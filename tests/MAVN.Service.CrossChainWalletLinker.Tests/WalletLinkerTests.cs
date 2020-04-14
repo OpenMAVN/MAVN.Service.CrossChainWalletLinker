@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Threading.Tasks;
 using Lykke.Common.MsSql;
 using Lykke.Logs;
@@ -18,7 +18,7 @@ using Lykke.Service.WalletManagement.Client.Enums;
 using Lykke.Service.WalletManagement.Client.Models.Responses;
 using Moq;
 using Xunit;
-using LinkingError = Lykke.Service.CrossChainWalletLinker.Domain.Models.LinkingError;
+using LinkingError = MAVN.Service.CrossChainWalletLinker.Domain.Models.LinkingError;
 
 namespace MAVN.Service.CrossChainWalletLinker.Tests
 {

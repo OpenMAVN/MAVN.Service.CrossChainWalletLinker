@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.Net;
 using System.Threading.Tasks;
@@ -9,7 +9,7 @@ using MAVN.Service.CrossChainWalletLinker.Client;
 using MAVN.Service.CrossChainWalletLinker.Client.Models;
 using MAVN.Service.CrossChainWalletLinker.Domain.Services;
 using Microsoft.AspNetCore.Mvc;
-using LinkingError = Lykke.Service.CrossChainWalletLinker.Domain.Models.LinkingError;
+using LinkingError = MAVN.Service.CrossChainWalletLinker.Domain.Models.LinkingError;
 
 namespace MAVN.Service.CrossChainWalletLinker.Controllers
 {
