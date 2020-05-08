@@ -1,11 +1,11 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Lykke.Common;
 using Lykke.Common.Log;
 using Lykke.RabbitMqBroker.Publisher;
 using MAVN.Service.CrossChainWalletLinker.Domain.RabbitMq.Publishers;
 using MAVN.Service.CrossChainWalletLinker.Domain.Services;
-using Lykke.Service.NotificationSystem.SubscriberContract;
+using MAVN.Service.NotificationSystem.SubscriberContract;
 
 namespace MAVN.Service.CrossChainWalletLinker.DomainServices.RabbitMq.Publishers
 {

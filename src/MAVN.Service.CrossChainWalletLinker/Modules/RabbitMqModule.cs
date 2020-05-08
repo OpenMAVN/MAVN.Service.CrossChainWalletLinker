@@ -1,8 +1,8 @@
-using Autofac;
+﻿using Autofac;
 using Common;
 using JetBrains.Annotations;
-using Lykke.Job.EthereumBridge.Contract;
-using Lykke.Job.QuorumTransactionWatcher.Contract;
+using MAVN.Job.EthereumBridge.Contract;
+using MAVN.Job.QuorumTransactionWatcher.Contract;
 using Lykke.RabbitMqBroker.Publisher;
 using Lykke.RabbitMqBroker.Subscriber;
 using MAVN.Service.CrossChainWalletLinker.Contract.Linking;
@@ -10,7 +10,7 @@ using MAVN.Service.CrossChainWalletLinker.Domain.RabbitMq.Publishers;
 using MAVN.Service.CrossChainWalletLinker.DomainServices.RabbitMq.Publishers;
 using MAVN.Service.CrossChainWalletLinker.DomainServices.RabbitMq.Subscribers;
 using MAVN.Service.CrossChainWalletLinker.Settings;
-using Lykke.Service.PrivateBlockchainFacade.Contract.Events;
+using MAVN.Service.PrivateBlockchainFacade.Contract.Events;
 using Lykke.SettingsReader;
 
 namespace MAVN.Service.CrossChainWalletLinker.Modules

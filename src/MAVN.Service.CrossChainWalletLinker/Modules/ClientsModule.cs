@@ -1,8 +1,8 @@
-using Autofac;
+﻿using Autofac;
 using JetBrains.Annotations;
 using MAVN.Service.CrossChainWalletLinker.Settings;
-using Lykke.Service.PrivateBlockchainFacade.Client;
-using Lykke.Service.WalletManagement.Client;
+using MAVN.Service.PrivateBlockchainFacade.Client;
+using MAVN.Service.WalletManagement.Client;
 using Lykke.SettingsReader;
 
 namespace MAVN.Service.CrossChainWalletLinker.Modules

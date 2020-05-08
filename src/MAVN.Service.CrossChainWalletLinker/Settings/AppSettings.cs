@@ -1,7 +1,7 @@
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 using Lykke.Sdk.Settings;
-using Lykke.Service.PrivateBlockchainFacade.Client;
-using Lykke.Service.WalletManagement.Client;
+using MAVN.Service.PrivateBlockchainFacade.Client;
+using MAVN.Service.WalletManagement.Client;
 
 namespace MAVN.Service.CrossChainWalletLinker.Settings
 {

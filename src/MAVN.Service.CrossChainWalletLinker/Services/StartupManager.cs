@@ -1,9 +1,9 @@
-using System.Threading.Tasks;
-using Lykke.Job.EthereumBridge.Contract;
-using Lykke.Job.QuorumTransactionWatcher.Contract;
+﻿using System.Threading.Tasks;
+using MAVN.Job.EthereumBridge.Contract;
+using MAVN.Job.QuorumTransactionWatcher.Contract;
 using Lykke.RabbitMqBroker.Subscriber;
 using Lykke.Sdk;
-using Lykke.Service.PrivateBlockchainFacade.Contract.Events;
+using MAVN.Service.PrivateBlockchainFacade.Contract.Events;
 
 namespace MAVN.Service.CrossChainWalletLinker.Services
 {
