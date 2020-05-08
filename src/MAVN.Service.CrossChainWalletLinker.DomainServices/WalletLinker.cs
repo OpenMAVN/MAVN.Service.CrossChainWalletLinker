@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Common.Log;
-using Falcon.Numerics;
+using MAVN.Numerics;
 using Lykke.Common.Log;
 using Lykke.Common.MsSql;
 using Lykke.RabbitMqBroker.Publisher;
@@ -11,9 +11,9 @@ using MAVN.Service.CrossChainWalletLinker.Domain.Exceptions;
 using MAVN.Service.CrossChainWalletLinker.Domain.Models;
 using MAVN.Service.CrossChainWalletLinker.Domain.Repositories;
 using MAVN.Service.CrossChainWalletLinker.Domain.Services;
-using Lykke.Service.PrivateBlockchainFacade.Client;
-using Lykke.Service.WalletManagement.Client;
-using Lykke.Service.WalletManagement.Client.Enums;
+using MAVN.Service.PrivateBlockchainFacade.Client;
+using MAVN.Service.WalletManagement.Client;
+using MAVN.Service.WalletManagement.Client.Enums;
 
 namespace MAVN.Service.CrossChainWalletLinker.DomainServices
 {

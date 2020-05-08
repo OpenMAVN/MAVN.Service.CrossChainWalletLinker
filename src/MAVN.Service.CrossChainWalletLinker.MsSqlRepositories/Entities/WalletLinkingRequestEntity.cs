@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Falcon.Numerics;
+using MAVN.Numerics;
 using MAVN.Service.CrossChainWalletLinker.Domain.Models;
 
 namespace MAVN.Service.CrossChainWalletLinker.MsSqlRepositories.Entities
