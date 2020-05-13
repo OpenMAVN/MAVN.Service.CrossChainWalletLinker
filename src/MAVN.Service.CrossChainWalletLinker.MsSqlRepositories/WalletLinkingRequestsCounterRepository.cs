@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Common.Log;
 using Lykke.Common.Log;
-using Lykke.Common.MsSql;
+using MAVN.Common.MsSql;
 using MAVN.Service.CrossChainWalletLinker.Domain.Models;
 using MAVN.Service.CrossChainWalletLinker.Domain.Repositories;
 using MAVN.Service.CrossChainWalletLinker.MsSqlRepositories.Entities;

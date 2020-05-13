@@ -9,8 +9,8 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="9.0.0" />
-    <PackageReference Include="Lykke.Common.MsSql" Version="2.3.0" />
     <PackageReference Include="Lykke.RabbitMqBroker" Version="7.13.1" />
+    <PackageReference Include="MAVN.Common.MsSql" Version="3.0.0" />
     <PackageReference Include="MAVN.Job.EthereumBridge.Contract" Version="1.0.1" />
     <PackageReference Include="MAVN.Job.QuorumTransactionWatcher.Contract" Version="1.1.0" />
     <PackageReference Include="MAVN.Service.NotificationSystem.SubscriberContract" Version="1.1.0" />

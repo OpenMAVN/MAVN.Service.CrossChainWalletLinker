@@ -1,6 +1,6 @@
 using Autofac;
 using JetBrains.Annotations;
-using Lykke.Common.MsSql;
+using MAVN.Common.MsSql;
 using MAVN.Service.CrossChainWalletLinker.MsSqlRepositories;
 using MAVN.Service.CrossChainWalletLinker.Domain.Repositories;
 using MAVN.Service.CrossChainWalletLinker.Settings;
