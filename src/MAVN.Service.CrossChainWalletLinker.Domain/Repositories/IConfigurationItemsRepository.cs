@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Lykke.Common.MsSql;
+using MAVN.Common.MsSql;
 using MAVN.Service.CrossChainWalletLinker.Domain.Enums;
 using MAVN.Service.CrossChainWalletLinker.Domain.Models;
 

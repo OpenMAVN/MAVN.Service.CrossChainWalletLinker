@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Common.Log;
 using MAVN.Numerics;
 using Lykke.Common.Log;
-using Lykke.Common.MsSql;
+using MAVN.Common.MsSql;
 using Lykke.RabbitMqBroker.Publisher;
 using MAVN.Service.CrossChainWalletLinker.Contract.Linking;
 using MAVN.Service.CrossChainWalletLinker.Domain.Exceptions;
