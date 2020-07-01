@@ -1,7 +1,7 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using MAVN.Common.MsSql;
+using MAVN.Persistence.PostgreSQL.Legacy;
 using MAVN.Service.CrossChainWalletLinker.Domain.Enums;
 using MAVN.Service.CrossChainWalletLinker.Domain.Models;
 using MAVN.Service.CrossChainWalletLinker.Domain.Repositories;
@@ -12,9 +12,9 @@ namespace MAVN.Service.CrossChainWalletLinker.MsSqlRepositories
 {
     public class ConfigurationItemsRepository : IConfigurationItemsRepository
     {
-        private readonly MsSqlContextFactory<WalletLinkingContext> _contextFactory;
+        private readonly PostgreSQLContextFactory<WalletLinkingContext> _contextFactory;
 
-        public ConfigurationItemsRepository(MsSqlContextFactory<WalletLinkingContext> contextFactory)
+        public ConfigurationItemsRepository(PostgreSQLContextFactory<WalletLinkingContext> contextFactory)
         {
             _contextFactory = contextFactory;
         }

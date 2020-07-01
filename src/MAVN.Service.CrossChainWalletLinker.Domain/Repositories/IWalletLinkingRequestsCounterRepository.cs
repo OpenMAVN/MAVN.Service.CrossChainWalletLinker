@@ -1,5 +1,5 @@
-using System.Threading.Tasks;
-using MAVN.Common.MsSql;
+﻿using System.Threading.Tasks;
+using MAVN.Persistence.PostgreSQL.Legacy;
 using MAVN.Service.CrossChainWalletLinker.Domain.Models;
 
 namespace MAVN.Service.CrossChainWalletLinker.Domain.Repositories

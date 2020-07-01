@@ -1,5 +1,5 @@
-using System.Data.Common;
-using MAVN.Common.MsSql;
+﻿using System.Data.Common;
+using MAVN.Persistence.PostgreSQL.Legacy;
 using MAVN.Service.CrossChainWalletLinker.Domain.Enums;
 using MAVN.Service.CrossChainWalletLinker.MsSqlRepositories.Entities;
 using Microsoft.EntityFrameworkCore;
@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MAVN.Service.CrossChainWalletLinker.MsSqlRepositories
 {
-    public class WalletLinkingContext : MsSqlContext
+    public class WalletLinkingContext : PostgreSQLContext
     {
         private const string Schema = "cross_chain_wallet_linker";
 
@@ -35,11 +35,7 @@ namespace MAVN.Service.CrossChainWalletLinker.MsSqlRepositories
         {
         }
 
-        protected override void OnLykkeConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-        }
-
-        protected override void OnLykkeModelCreating(ModelBuilder modelBuilder)
+        protected override void OnMAVNModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<WalletLinkingRequestEntity>()
                 .HasIndex(e => e.PrivateAddress)
