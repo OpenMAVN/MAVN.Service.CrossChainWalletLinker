@@ -1,10 +1,10 @@
-using Autofac;
+﻿using Autofac;
 using JetBrains.Annotations;
-using MAVN.Common.MsSql;
 using MAVN.Service.CrossChainWalletLinker.MsSqlRepositories;
 using MAVN.Service.CrossChainWalletLinker.Domain.Repositories;
 using MAVN.Service.CrossChainWalletLinker.Settings;
 using Lykke.SettingsReader;
+using MAVN.Persistence.PostgreSQL.Legacy;
 
 namespace MAVN.Service.CrossChainWalletLinker.Modules
 {
@@ -20,7 +20,7 @@ namespace MAVN.Service.CrossChainWalletLinker.Modules
 
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterMsSql(
+            builder.RegisterPostgreSQL(
                 _appSettings.CurrentValue.CrossChainWalletLinkerService.Db.DataConnString,
                 connString => new WalletLinkingContext(connString, false),
                 dbConn => new WalletLinkingContext(dbConn));

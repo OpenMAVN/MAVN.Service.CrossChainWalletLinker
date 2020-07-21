@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 using System.Threading.Tasks;
-using MAVN.Common.MsSql;
 using Lykke.Logs;
 using Lykke.RabbitMqBroker.Publisher;
+using MAVN.Persistence.PostgreSQL.Legacy;
 using MAVN.Service.CrossChainWalletLinker.Contract.Linking;
 using MAVN.Service.CrossChainWalletLinker.Domain.Exceptions;
 using MAVN.Service.CrossChainWalletLinker.Domain.Models;

@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 using System.Threading.Tasks;
 using MAVN.Numerics;
-using MAVN.Common.MsSql;
 using Lykke.Logs;
+using MAVN.Persistence.PostgreSQL.Legacy;
 using MAVN.Service.CrossChainWalletLinker.Domain.Enums;
 using MAVN.Service.CrossChainWalletLinker.Domain.Models;
 using MAVN.Service.CrossChainWalletLinker.Domain.Repositories;

@@ -1,7 +1,7 @@
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Common.Log;
 using Lykke.Common.Log;
-using MAVN.Common.MsSql;
+using MAVN.Persistence.PostgreSQL.Legacy;
 using MAVN.Service.CrossChainWalletLinker.Domain.Models;
 using MAVN.Service.CrossChainWalletLinker.Domain.Repositories;
 using MAVN.Service.CrossChainWalletLinker.MsSqlRepositories.Entities;
@@ -10,11 +10,11 @@ namespace MAVN.Service.CrossChainWalletLinker.MsSqlRepositories
 {
     public class WalletLinkingRequestsCounterRepository : IWalletLinkingRequestsCounterRepository
     {
-        private readonly MsSqlContextFactory<WalletLinkingContext> _contextFactory;
+        private readonly PostgreSQLContextFactory<WalletLinkingContext> _contextFactory;
         private readonly ILog _log;
         
         public WalletLinkingRequestsCounterRepository(
-            MsSqlContextFactory<WalletLinkingContext> contextFactory, 
+            PostgreSQLContextFactory<WalletLinkingContext> contextFactory, 
             ILogFactory logFactory)
         {
             _contextFactory = contextFactory;

@@ -1,6 +1,5 @@
-using Autofac;
+﻿using Autofac;
 using JetBrains.Annotations;
-using MAVN.Common.MsSql;
 using Lykke.Sdk;
 using MAVN.Service.CrossChainWalletLinker.Domain.RabbitMq.Handlers;
 using MAVN.Service.CrossChainWalletLinker.Domain.Services;
